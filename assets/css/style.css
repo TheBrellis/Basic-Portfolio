@@ -1,0 +1,50 @@
+* {
+    text-align: center;
+}
+
+header{
+    background-color: #ffffff;
+    border: 5px;
+    border-color: #dddddd;
+    margin-bottom:20px;
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    border: 1px;
+    padding: 20px;
+    margin-left: 25%;
+    float: left;
+    overflow: auto;
+}
+
+nav a{
+    font-family: 'Arial', 'Helvetica Neue', helvetica, sans-serif;
+    float: right;
+    color: gray;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav #about{
+    border-right: 1px;
+}
+
+nav #portfolio{
+    border-right: 1px;
+    border-left: 1px;
+}
+
+nav #contact{
+    border-left: 1px;
+}
+
+main{
+    clear: both;
+}
+
+footer{
+    clear: both;
+}
