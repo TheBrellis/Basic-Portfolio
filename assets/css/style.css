@@ -4,12 +4,12 @@
 /* START OF HEADER STYLING*/
 header{
     background-color: #ffffff;
-    border: 5px;
+    border: 1px;
     border-color: #dddddd;
     margin-bottom:0px;
 }
 
-h1 {
+header h1 {
     color: white;
     background-color: #4aaaa5;
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
@@ -41,16 +41,26 @@ nav a{
 
 main{
     clear: both;
+    position: absolute;
 }
-main h2{
-    color: #4aaaa5;
-    float: left;
-    margin-left: 25%;
-}
-
 
 #backgroundimage {
     width: 100%;
+    float: left;
+    position: relative;
+}
+
+.aboutme{
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    float: left;
+    margin-left: 25%;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    overflow: auto;
 }
 
 footer{
