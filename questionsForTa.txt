@@ -2,7 +2,7 @@ Questions for TA's:
 
 background image doesn't scale with page/also way too long?
 
-can't get image and text to float in 'about me'
+float don't float;
 
 
 
