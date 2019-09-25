@@ -11,6 +11,7 @@ header {
     background-color: #ffffff;
     border: 1px;
     border-color: #dddddd;
+    border-style: solid;
     margin-bottom:0px;
 
 }
@@ -27,12 +28,18 @@ header h1 {
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
     border: 1px;
     padding: 20px;
-    margin-left: 17%;
+    margin-left: 50%;
     margin-bottom: 0px;
     float: left;
     overflow: auto;
     position: absolute;
     z-index:0;
+    left: -480px; 
+}
+
+nav {
+    margin-left: 50%;
+    
 }
 
 nav a{
@@ -45,7 +52,8 @@ nav a{
     margin: 50px 0px 30px 0px;
     float: left;
     position: relative;
-    left: 67%;
+    left: 330px;
+    
 }
 /* END OF HEADER STYLING */
 
@@ -59,27 +67,29 @@ main{
 
 /* INDEX */
 
-.aboutme {
+.content {
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     background-color: #ffffff;
     border-style: solid;
     border-color: #cccccc;
-    width: 900px;
+    width: 960px;
     padding: 0px 30px 20px 30px;
-    margin-left: 17%;
+    margin-left: 50%;
     overflow: auto;
     position:relative;
+    left: -480px;
     top: 40px;
     z-index: 2;
 }
 
-.aboutme h1{
+.content h1 {
     border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: #dddddd;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1px;
     padding-bottom: 20px;
 }
+
 
 #profpic {
     padding: 20px 20px 20px 0px;
