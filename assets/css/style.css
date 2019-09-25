@@ -59,13 +59,11 @@ nav a{
 
 /*START OF MAIN STYLING*/
 
+/*UNIVERSAL FORMATTING */
 main{
     clear: both;
     position:relative;
 }
-
-
-/* INDEX */
 
 .content {
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
@@ -90,6 +88,7 @@ main{
     padding-bottom: 20px;
 }
 
+/* INDEX SPECIFIC */
 
 #profpic {
     padding: 20px 20px 20px 0px;
@@ -103,6 +102,39 @@ main{
     padding: 12px 12px 12px 0px;
     margin:0px;
 }
+
+/* CONTACT SPECIFIC */
+
+.contactsheet {
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.contactsheet input[type=text] {
+    width: 100%
+}
+
+input[type=submit] {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    border: 1px;
+    padding: 20px;
+
+}
+
+#name {
+    padding-bottom: 5px;
+}
+
+#email {
+    padding-bottom: 5px;
+}
+
+#message {
+    padding-bottom: 5px;
+}
+
 
 /* START OF FOOTER STYLING */
 
