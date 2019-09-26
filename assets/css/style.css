@@ -119,10 +119,14 @@ input[type=submit] {
     background-color: #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     border: 1px;
-    padding: 20px;
-
+    padding: 10px 20px 10px 20px;
 }
 
+textarea {
+    height:200px;
+    width:100%;
+    overflow:auto;
+}
 #name {
     padding-bottom: 5px;
 }
