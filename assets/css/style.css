@@ -110,6 +110,7 @@ main{
     color: #777777;
 }
 
+        /*TECHNIQUE FOR STYLING INPUTS SOURCES FROM W3SCHOOLS.COM*/
 .contactsheet input[type=text] {
     width: 100%
 }
@@ -143,16 +144,23 @@ textarea {
 
 .projects {
     float:left;
-    
 }
 
-.hangman {
+.projects h2 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.hangman h2 {
+    position: absolute;
+    width: 100%;
 
 }
 
-.rpg {
-
-}
 
 
 /* START OF FOOTER STYLING */
