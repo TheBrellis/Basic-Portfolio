@@ -146,22 +146,40 @@ textarea {
     float:left;
 }
 
-.projects h2 {
+ .projects h2 {
     color: white;
     background-color: #4aaaa5;
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     text-align: center;
+   
 }
 
 
-.hangman h2 {
+.hangman {
     position: absolute;
-    width: 100%;
-
+    top: 200px;
 }
 
+.rpg {
+    position: absolute;
+    top: 200px;
+}
 
+.trivia {
+    position: absolute;
+    top: 200px;
+}
+
+.rutgers {
+    position: absolute;
+    top: 200px;
+}
+
+.rockPaperScissors {
+    position: absolute;
+    top: 200px;
+}
 
 /* START OF FOOTER STYLING */
 
