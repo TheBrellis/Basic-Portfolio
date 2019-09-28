@@ -91,15 +91,16 @@ main{
 /* INDEX SPECIFIC */
 
 #profpic {
-    padding: 20px 20px 20px 0px;
+    padding: 10px 20px 20px 0px;
     float: left;
 }
 
-#bio{
+.bio {
+    text-indent: 5%;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     color: #777777;
     line-height: 2.0;
-    padding: 12px 12px 12px 0px;
+    padding: 0px;
     margin:0px;
 }
 
@@ -142,44 +143,79 @@ textarea {
 
 /*PORTFOLIO STYLING */
 
-.projects {
-    float:left;
+.projects div {
+    margin-right: 40px;
+    float: left;
+    
 }
 
- .projects h2 {
+.projects img {
+    border-style:solid;
+    border: width 0.5;px;
+    border-color:#cccccc;
+}
+
+.projects h2 {
     color: white;
     background-color: #4aaaa5;
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
+    padding: 10px 20px;
     text-align: center;
-   
+    margin: 0px;
 }
 
-
 .hangman {
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: -25px;
+
+}
+
+.hangman h2 {
+    position: relative;
+    top: 175px
 }
 
 .rpg {
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: -25px;
+}
+
+.rpg h2 {
+    position: relative;
+    top: 175px
 }
 
 .trivia {
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: -25px;
 }
 
+.trivia h2 {
+    position: relative;
+    top: 175px
+}
+
+
 .rutgers {
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: -25px;
+}
+
+.rutgers h2 {
+    position: relative;
+    top: 175px
 }
 
 .rockPaperScissors {
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: -25px;
 }
+
+.rockPaperScissors h2 {
+    position: relative;
+    top: 175px
+}
+
 
 /* START OF FOOTER STYLING */
 
